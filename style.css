@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-c {
+  margin-top: 10%;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+}
+
+.box-c .form-1 {
+  position: relative;
+  opacity: 1;
+}
+
+.form-1.form-next-1 {
+  position: absolute;
+  opacity: 0;
+}
+
+.box-c .form-2 {
+  position: absolute;
+  opacity: 0;
+}
+
+.form-2.form-next-2 {
+  position: relative;
+  opacity: 1;
+}
+
+.box-c .form-3 {
+  position: absolute;
+  opacity: 0;
+}
+
+.form-3.form-next-3 {
+  position: relative;
+  opacity: 1;
+}
